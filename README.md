@@ -9,7 +9,7 @@ The mechanism proposed here is for real-time speaker change detection in convers
 
 Here, on coming to the observation point of view, Librosa converts the signal to mono, meaning the channel will always be 1.
 
-Extracting the features:
+EXTRACTING THE FEATURES:
 
 Here we will be using Mel-Frequency Cepstral Coefficients(MFCC) from the audio samples. The MFCC summarises the frequency distribution across the window size, so it is possible to analyse both the frequency and time characteristics of the sound. These audio representations will allow us to identify features for classification.
 
